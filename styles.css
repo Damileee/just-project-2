@@ -84,6 +84,15 @@ article {
   padding-right: 0;
   margin-right: 0;
 }
+.third_article {
+  position: relative;
+  align-items: center;
+  padding: 64px 32px;
+  border: 2px solid #155eef;
+  border-radius: 8px;
+  margin: 4rem 0;
+  padding-top: 9rem;
+}
 section {
   display: flex;
   flex-direction: row;
@@ -120,6 +129,15 @@ h2 {
   line-height: 120%;
   color: #041330;
 }
+h3 {
+  font-family: "Halant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 1rem;
+  line-height: 120%;
+  color: #041330;
+}
 .article_1 {
   padding: 10rem 2rem;
   width: 50%;
@@ -145,6 +163,32 @@ h2 {
   flex-direction: column;
   gap: 10px;
 }
+.article_3 {
+  position: absolute;
+  left: 2%;
+  top: 4%;
+  font-size: 1.5rem;
+  padding: 32px 5rem;
+  margin: 0rem 1rem 2rem 1rem;
+  gap: 24px;
+  background-color: #f9fbff;
+  width: 55%;
+  height: 78%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #2e3a53;
+}
+ul {
+  margin: 1rem 0rem 1rem 2.5rem;
+}
+.thank {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .p {
   font-size: 1.67rem;
   letter-spacing: 0.2rem;
@@ -160,6 +204,10 @@ h2 {
   border-style: solid;
   border-color: #155eef;
   padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.frame_img {
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer {
