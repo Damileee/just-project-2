@@ -345,6 +345,9 @@ footer {
   .frame_img {
     display: none;
   }
+  .footerimg1 {
+    width: 100%;
+  }
   .second_button {
     width: 100%;
   }
