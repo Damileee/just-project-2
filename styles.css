@@ -27,6 +27,11 @@ nav {
   width: 40%;
   align-items: center;
 }
+.harmbuger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 a {
   font-family: "Halant";
   font-style: normal;
@@ -219,4 +224,152 @@ footer {
 .footer_img {
   display: flex;
   gap: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 5% 8%;
+    padding: 1rem 3rem;
+  }
+
+  nav {
+    display: none;
+  }
+  article {
+    display: block;
+  }
+  .article_1 {
+    display: inline;
+    text-align: center;
+  }
+  .article_2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+  }
+  .article_3{
+    display: block; 
+    position: unset;
+    /* text-align: center; */
+    width: 100%;
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+  h3 {
+    text-align: center;
+  }
+  .third_article {
+    padding-right: 0;
+    margin-right: 0;
+    position: unset;
+    margin: 2rem 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+  .frame_img {
+    display: none;
+  }
+  .footerimg1 {
+    width: 100%;
+  }
+  .second_button {
+    width: 100%;
+  }
+  footer {
+    flex-wrap:wrap;
+    padding: 1rem;
+  }
+}
+
+
+
+/* Medium devices (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    margin: 5% 8%;
+    padding: 1rem 3rem;
+  }
+
+  nav {
+    display: none;
+  }
+  article {
+    display: block;
+  }
+  .article_1 {
+    display: inline;
+    text-align: center;
+  }
+  .article_2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+  }
+  .article_3{
+    display: block; 
+    position: unset;
+    /* text-align: center; */
+    width: 100%;
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+  h3 {
+    text-align: center;
+  }
+  .third_article {
+    padding-right: 0;
+    margin-right: 0;
+    position: unset;
+    margin: 2rem 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+  .frame_img {
+    display: none;
+  }
+  .second_button {
+    width: 100%;
+  }
+  footer {
+    flex-wrap:wrap;
+    padding: 1rem;
+  }
+}
+
+/* Large devices (1025px and above) */
+@media screen and (min-width: 1025px) {
+  .container {
+    margin: 5% 10%;
+    padding: 1rem 4rem;
+  }
+
+  nav {
+    width: 40%;
+  }
+  .harmbuger {
+    display: none;
+  }
+
+  /* Default flex direction */
+  header {
+    flex-direction: row;
+  }
 }
