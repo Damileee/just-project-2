@@ -267,9 +267,10 @@ footer {
   .mobile-nav.active {
     max-width: 425px;
     /* margin-left: 2rem; */
-    width: 15rem !important;
+    width: 16.5rem !important;
     top: 5rem !important;
-    left: 5rem !important;
+    left: 6rem !important;
+    transition: ease-in-out !important;
   }
 }
 
